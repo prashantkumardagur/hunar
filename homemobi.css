@@ -1,0 +1,258 @@
+@media screen and (max-width: 500px){
+
+    header{
+        background: #fff;
+    }
+    nav{
+        height: 50px;
+    }
+    nav h2, nav img{
+        display: none;
+    }
+    nav div{
+        margin: 0;
+    }
+    nav div a{
+        padding: 13px 10px;
+    }
+
+    .righthead{
+        text-align: center;
+        padding: 20px;
+    }
+    .righthead img{
+        display: block;
+        width: 40vw;
+        margin: 30px auto;
+    }
+    .righthead h1{
+        font-size: 50px;
+        letter-spacing: 0;
+    }
+    .righthead pre{
+        top: -10px;
+        font-size: 16px;
+    }
+    .righthead h2{
+        font-size: 26px;
+        padding-top: 30px;
+    }
+    .righthead p{
+        padding: 0;
+        font-size: 14px;
+        margin: 15px 0 40px;
+    }
+    .righthead .abutton{
+        font-size: 20px;
+    }
+
+    .about{
+        margin: 50px 0;
+        padding: 40px 5vw;
+    }
+    .about section{
+        grid-template-columns: 1fr;
+        grid-template-areas: 'aboutright' 'aboutleft';
+    }
+    .about h5{
+        font-size: 20px;
+        padding-top: 40px;
+    }
+    .about p{
+        padding: 20px 5vw 30px;
+    }
+    .about h3{
+        padding-top: 30px;
+    }
+    .about h6{
+        padding: 0 5vw 20px;
+    }
+    .aboutright p{
+        padding: 5px 0 120px;
+    }
+    .aboutright #art8{
+        height: 100px;
+    }
+
+    .categories{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 'intro intro' '. .' '. .' 
+                            '. .' 'more more';
+        padding: 50px 0;
+        row-gap: 20px;
+        column-gap: 0;
+    }
+    .cghead{
+        width: 100.1vw;
+        transform: none;
+        padding: 20px 10vw 30px 5vw;
+    }
+    .cghead h3{
+        font-size: 44px;
+    }
+    .cghead p{
+        font-size: 16px;
+    }
+    .cghead div{
+        font-size: 20px;
+    }
+    .category{
+        margin: 0 10px;
+        padding-bottom: 10px;
+    }
+    .category h4{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .category .abutton{
+        color: #0652dd;
+    }
+    #beatbox{
+        display: none;
+    }
+    .more{
+        margin: 0 10px;
+        display: block;
+        position: relative;
+        padding: 25px 15px 100px;
+    }
+    .more h5{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .more p{
+        font-size: 14px;
+        position: relative;
+        z-index: 1;
+    }
+    .more img{
+        position: absolute;
+        bottom: 0; right: 0;
+        height: 200px;
+    }
+
+    .cbevent{
+        grid-template-columns: 1fr;
+        grid-template-areas: 'header''.''.';
+        padding: 80px 0;
+    }
+    .cbevent h3{
+        font-size: 40px;
+        word-spacing: 0;
+        text-align: center;
+    }
+    .cbevent .cblogo{
+        width: 30vw;
+        margin: 20px auto 5px;
+    }
+    .cbevent h4{
+        font-size: 26px;
+    }
+    .cbevent h5{
+        font-size: 16px;
+    }
+    .cbevent p{
+        font-size: 14px;
+        padding: 15px;
+    }
+    .cbevent h6{
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    .cbevent .tmmlogo{
+        width: 40vw;
+        margin-bottom: 100px;
+    }
+    .cbright{
+        margin: 0 auto;
+        width: 101%;
+    }
+    .cbright p{
+        width: 65%;
+        top: 0; left: 0;
+        margin: auto;
+        font-size: 12px;
+        transform: scale(1.15);
+    }
+
+    .criteria{
+        grid-template-columns: 1fr;
+        padding: 80px 0;
+    }
+    #art2{
+        display: none;
+    }
+    .ctright{
+        padding: 20px;
+        background: none;
+        border-radius: 0;
+    }
+    .ctright h3{
+        font-size: 40px;
+    }
+    .ctnum{
+        padding: 0 0 0 20px;
+    }
+    .ctnum p{
+        font-size: 14px;
+        top: 30px;
+    }
+    
+    .guesthead{
+        padding: 60px 5vw;
+        height: 420px;
+        margin: 40px 0 480px;
+    }
+    .guesthead h3{
+        font-size: 40px;
+    }
+    .guesthead > p{
+        font-size: 14px;
+        padding: 30px 0 60px;
+    }
+    .guesthead section{
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+    .guest{
+        padding: 10px;
+    }
+    .guest hr{
+        margin: 10px 0;
+    }
+    .guest h5{
+        font-size: 16px;
+        padding: 10px 0 0;
+    }
+    .guest p{
+        font-size: 12px;
+    }
+
+    .ender{
+        padding: 240px 20px 20vh;
+    }
+    .ender h4{
+        font-size: 30px;
+        word-spacing: 0;
+    }
+    .ender p{
+        padding: 30px 0;
+        font-size: 14px;
+    }
+    .ender .abutton{
+        font-size: 20px;
+        padding: 5px 30px;
+    }
+    #art5{
+        height: 9vh;
+    }
+    #art4{
+        height: 7vh;
+    }
+    #art3{
+        height: 18vh;
+        right: 0;
+    }
+
+}

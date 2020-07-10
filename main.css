@@ -82,3 +82,30 @@ hr.special {
 #back .fa{
     margin: 0 5px 0 0; 
 }
+
+@media screen and (max-width: 500px){
+    .maintenance{
+        height: 101vh;
+    }
+    .maintenance img{
+        width: 90vw;
+        height: auto;
+    }
+    .maintenance h6{
+        font-size: 30px;
+    }
+    .maintenance blockquote{
+        font-size: 30px;
+    }
+    .maintenance p{
+        font-size: 14px;
+    }
+    .maintenance div{
+        font-size: 22px;
+        padding: 15px 0 50px;
+    }
+    .maintenance .abutton{
+        padding: 6px 40px;
+        font-size: 18px;
+    }
+}

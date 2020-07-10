@@ -47,6 +47,9 @@ nav .activenav{
     text-align: right;
     padding: 60px 100px;
 }
+.righthead img{
+    display: none;
+}
 .righthead h1{
     font-size: 80px;
     letter-spacing: 2px;
@@ -75,13 +78,14 @@ nav .activenav{
 }
 
 .about{
-    margin: 10vh 0;
-    padding: 10vh 10vw;
+    margin: 50px 0;
+    padding: 100px 10vw;
     text-align: center;
 }
 .about section{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'aboutleft aboutright';
     box-shadow: 0 0 45px #0007;
 }
 .about h5{
@@ -107,19 +111,23 @@ nav .activenav{
 .about img{
     display: block;
     margin: 15px auto;
-    height: 20vh;
+    height: 150px;
 }
 .about h4{
     font-size: 30px;
 }
+.aboutleft{
+    grid-area: aboutleft;
+}
 .aboutright{
     background-color: #48dbfb;
     position: relative;
+    grid-area: aboutright;
 }
 .aboutright #art8{
     position: absolute;
     bottom: 0; right: 20px;
-    height: 15vh;
+    height: 120px;
     margin: 0;
 }
 
@@ -128,7 +136,7 @@ nav .activenav{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 80px 10%;
     grid-template-areas: 'intro intro . .' '. . . .' '. more more more';
-    row-gap: 10vh;
+    row-gap: 80px;
     column-gap: 3vw;
 }
 .cghead{
@@ -220,7 +228,7 @@ nav .activenav{
 }
 
 .cbevent{
-    padding: 15vh 10vw;
+    padding: 150px 10vw;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -298,14 +306,14 @@ nav .activenav{
 .criteria{
     display: grid;
     grid-template-columns: 20vw auto;
-    padding: 5vh 10vw 10vh;
+    padding: 50px 10vw 100px;
 }
 .criteria img{
     display: block;
     width: 100%;
 }
 .ctright{
-    padding-left: 30px;
+    padding: 30px 20px 50px 30px;
     background: linear-gradient(90deg , #f8f8f8 80%, #48dbfb60 100%);
     border-radius: 0 100px 100px 0;
 }
@@ -335,9 +343,9 @@ nav .activenav{
 
 .guesthead{
     text-align: center;
-    margin: 5vh 0 85vh;
+    margin: 50px 0 600px;
     background-color: #48dbfb;
-    padding: 50px 10vw;
+    padding: 100px 10vw;
     height: 50vh;
 }
 .guesthead h3{
@@ -357,7 +365,7 @@ nav .activenav{
 .guest{
     padding: 40px 25px 25px;
     background-color: #fff;
-    box-shadow: 0 0 20px #0005;
+    box-shadow: 0 0 30px #0005;
 }
 .guest hr{
     margin: 10px 10%;
@@ -380,7 +388,7 @@ nav .activenav{
 
 .ender{
     background-color: #48dbfb;
-    padding: 45vh 10vw 40vh;
+    padding: 320px 10vw 350px;
     text-align: center;
     position: relative;
     z-index: -1;
