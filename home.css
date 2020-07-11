@@ -92,6 +92,9 @@ nav .activenav{
     grid-template-areas: 'aboutleft aboutright';
     box-shadow: 0 0 45px #0007;
 }
+.about section.dark{
+    box-shadow: 0 0 30px #000;
+}
 .about h5{
     font-size: 24px;
     padding-top: 60px;
@@ -109,6 +112,9 @@ nav .activenav{
     font-size: 14px;
     padding: 30px 4vw 60px;
 }
+.about p.dark{
+    color: #ccc;
+}
 .aboutright p{
     padding: 10px ;
 }
@@ -122,6 +128,11 @@ nav .activenav{
 }
 .aboutleft{
     grid-area: aboutleft;
+    background-color: white;
+}
+.aboutleft.dark{
+    background-color: #222;
+    color: white;
 }
 .aboutright{
     position: relative;
@@ -169,6 +180,10 @@ nav .activenav{
     background-color: #fff;
     margin: 0 20px;
 }
+.category.dark{
+    background-color: #ddd;
+    box-shadow: 0 0 20px black;
+}
 .category:hover{
     transform: scale(1.02);
     box-shadow: 0 0 35px #0008;
@@ -204,9 +219,17 @@ nav .activenav{
     grid-template-columns: 1fr auto;
     transition: 0.3s;
 }
+.more.dark{
+    background-color: #222;
+    box-shadow: 0 0 20px black;
+    color: white;
+}
 .more:hover{
     transform: scale(1.02);
     box-shadow: 0 0 35px #0006;
+}
+.more.dark:hover{
+    box-shadow: 0 0 30px #000;
 }
 .more img{
     height: 100%;
@@ -220,10 +243,14 @@ nav .activenav{
     padding: 5px 0;
     color: #555;
 }
+.more p.dark{
+    color: #ccc;
+}
 .more .abutton{
     padding: 5px 20px;
     margin-top: 20px;
     font-size: 18px;
+    color: black;
 }
 
 .cbevent{
@@ -232,6 +259,9 @@ nav .activenav{
     grid-template-columns: 1fr 1fr;
     text-align: center;
     grid-template-areas: "header header" " . . ";
+}
+.cbevent.dark{
+    color: white;
 }
 .cbevent h3{
     position: relative;
@@ -258,10 +288,16 @@ nav .activenav{
     color: #222;
     font-weight: normal;
 }
+.cbevent h5.dark{
+    color: #ddd;
+}
 .cbevent p{
     font-size: 15px;
     padding: 15px 30px;
     color: #555;
+}
+.cbevent p.dark{
+    color: #999;
 }
 .cblink{
     font-size: 18px;
@@ -289,6 +325,10 @@ nav .activenav{
     top: 50px; left: -50px;
     box-shadow: 0 0 20px #0005, 20px 20px 5px #0004;
 }
+.cbright p.dark{
+    color: black;
+    box-shadow:  0 0 20px #0007, 20px 20px 5px #0007;
+}
 .cbright .sleft{
     display: block;
     text-align: left;
@@ -306,6 +346,9 @@ nav .activenav{
     grid-template-columns: 20vw auto;
     padding: 50px 10vw 100px;
 }
+.criteria.dark{
+    color: white;
+}
 .criteria img{
     display: block;
     width: 100%;
@@ -321,6 +364,9 @@ nav .activenav{
     border-left: 4px solid;
     padding: 20px 25px 0 20px;
     margin-left: 10px;
+}
+.ctnum.dark{
+    color: #ccc;
 }
 .ctnum p{
     padding: 10px 0;
@@ -358,6 +404,14 @@ nav .activenav{
     column-gap: 150px;
     row-gap: 100px;
 }
+.guest.dark{
+    background-color: #222;
+    color: white;
+    box-shadow: 0 0 30px black;
+}
+.guest.dark p{
+    color: #ddd;
+}
 .guest{
     padding: 40px 25px 25px;
     background-color: #fff;
@@ -367,6 +421,9 @@ nav .activenav{
 }
 .guest hr{
     margin: 10px 10%;
+}
+.guest.dark hr{
+    background-image: linear-gradient(to right, #fff0, #ffff, #fff0);
 }
 .guest img{
     width: 100%;
