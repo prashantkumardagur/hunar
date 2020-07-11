@@ -97,7 +97,7 @@ hr.special {
 
 .controls{
     position: fixed;
-    bottom: -65px;
+    bottom: -70px;
     right: 0px;
     z-index: 8;
     transition: 0.5s;
@@ -108,7 +108,7 @@ hr.special {
     border-radius: 50%;
     box-shadow: 0 0 20px #0006;
     display: block;
-    margin: 15px 10px;
+    margin: 20px 10px;
     font-size: 26px;
     color: #0642b2;
 }
@@ -119,8 +119,6 @@ hr.special {
 
 @media screen and (max-width: 500px){
     .control{
-        height: 40px; width: 40px;
-        font-size: 22px;
         box-shadow: 0 0 20px black;
     }
 

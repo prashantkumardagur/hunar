@@ -31,9 +31,9 @@ var controls = document.getElementById("controls");
 window.onscroll = function(){ scrollfunc(); }
 function scrollfunc(){
     if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
-        controls.style.bottom = "0px";
+        controls.style.bottom = "10px";
       } else {
-        controls.style.bottom = "-65px";
+        controls.style.bottom = "-70px";
       }
 }
 function gotoTop(){
