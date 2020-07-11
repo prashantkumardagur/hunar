@@ -9,9 +9,17 @@ if(darkCheck === null){
 
 if(darkMode) { toggleDarkMode(); }
 
+/*--------------------------------------------------*/
+
 $("#hidebtn").click(function(){ $(".maintenance").hide(); });
 $("#back").click(function(){ history.back(); });
 $("#topbtn").click(function(){ gotoTop(); });
+$("#themebtn").click(function(){ $("#accentSection").toggle(); });
+$("#closeAccentSection").click(function(){ $("#accentSection").hide(); });
+
+
+/*-----------------------------------------------*/
+
 $("#darkbtn").click(function(){ 
     darkMode = !darkMode;
     toggleDarkMode();
@@ -24,7 +32,7 @@ function toggleDarkMode(){
     else $("body").css("background-color", "#f5f5f5");
 }
 
-$(".ctnum").css("border-color", $('.accentbg').css("background-color"));
+/*-------------------------------------------------*/
 
 var controls = document.getElementById("controls");
 
@@ -39,4 +47,24 @@ function scrollfunc(){
 function gotoTop(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+}
+
+/*---------------------------------------------------*/
+
+var accentColor = localStorage.getItem("accentColor");
+if(accentColor === null){ accentColor = "#37bcff"; }
+$('.accentbg').css("background-color", accentColor);
+$(".ctnum").css("border-color", accentColor);
+
+$("#pallete span").click(function(){
+    var accentColor = $(this).css("background-color"); 
+    localStorage.setItem("accentColor", accentColor)
+    $('.accentbg').css("background-color", accentColor);
+    $(".ctnum").css("border-color", accentColor);
+});
+
+function customColorSelect(){
+    var customColor = document.getElementById("customColor");
+    $('.accentbg').css("background-color", customColor.value);
+    $(".ctnum").css("border-color", customColor.value);
 }

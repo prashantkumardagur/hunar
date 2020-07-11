@@ -28,12 +28,29 @@
         <button class="control" id="darkbtn">
             <i class="fa fa-adjust" aria-hidden="true"></i>
         </button>
-        <button class="control">
+        <button class="control" id="themebtn">
             <i class="fa fa-paint-brush" aria-hidden="true"></i>
         </button>
         <button class="control" id="topbtn">
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </button>
+        <section class="accentSection theme" id="accentSection">
+            <div class="accentbg">
+                <i class="fa fa-times-circle" aria-hidden="true" id="closeAccentSection"></i>
+                <h6 class="raleway">Accent Color</h6>
+                <p>Choose your Accent Color <br> for Website</p>
+            </div>
+            <div class="accentPallete" id="pallete">
+                <span style="background-color: #37bcff"></span>
+                <span style="background-color: #ff2525"></span>
+                <span style="background-color: #28e35a"></span>
+                <span style="background-color: #fb8e28"></span>
+                <span style="background-color: #be2edd"></span>
+                <span style="background-color: #f9ca24"></span>
+                <span style="background-color: #fb6ee9"></span>
+                <input type="color" id="customColor" onchange="customColorSelect()">
+            </div>
+        </section>
     </div>
 
     <header>
