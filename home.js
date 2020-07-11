@@ -1,6 +1,4 @@
 $("#hidebtn").click(function(){ $(".maintenance").hide(); });
 $("#back").click(function(){ history.back(); });
 
-if(window.outerWidth<500){
-
-}
+$(".ctnum").css("border-color", $('.accentbg').css("background-color"));

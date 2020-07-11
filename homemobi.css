@@ -1,7 +1,9 @@
 @media screen and (max-width: 500px){
 
     header{
-        background: #fff;
+        background: url(resources/mobibg.png);
+        background-size: cover;
+        position: relative;
     }
     nav{
         height: 50px;
@@ -14,11 +16,18 @@
     }
     nav div a{
         padding: 13px 10px;
+        top: 0;
     }
 
+    #mainlogo{
+        display: none;
+    }
     .righthead{
         text-align: center;
         padding: 20px;
+        position: absolute;
+        bottom: 7vh;
+        text-shadow: 0 0 10px #000;
     }
     .righthead img{
         display: block;
@@ -128,7 +137,7 @@
     .more img{
         position: absolute;
         bottom: 0; right: 0;
-        height: 200px;
+        height: 180px;
     }
 
     .cbevent{

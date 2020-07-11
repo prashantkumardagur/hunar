@@ -1,7 +1,7 @@
 header{
     box-sizing: border-box;
     height: 100vh; width: 100vw;
-    background: url(resources/light.jpeg);
+    background: url(resources/mainbg.png);
     background-size: cover;
 }
 nav{
@@ -10,7 +10,6 @@ nav{
     box-sizing: border-box;
     position: relative;
     display: flex;
-    background-color: #48dbfb;
     align-content: center;
     box-shadow: 0 0 15px #0008;
 }
@@ -38,6 +37,8 @@ nav div a{
     display: inline-block;
     height: 100%;
     box-sizing: border-box;
+    position: relative;
+    top: -4px;
 }
 nav .activenav{
     border-bottom: 4px solid #0652dd;
@@ -46,6 +47,7 @@ nav .activenav{
 .righthead{
     text-align: right;
     padding: 60px 100px;
+    color: white;
 }
 .righthead img{
     display: none;
@@ -71,10 +73,12 @@ nav .activenav{
     text-shadow: 0 0 5px #0003;
 }
 .righthead .abutton{
-    background-color: #48dbfb;
     font-weight: bold;
     padding: 8px 30px;
     font-size: 24px;
+    color: black;
+    position: relative;
+    top: 4vh;
 }
 
 .about{
@@ -120,7 +124,6 @@ nav .activenav{
     grid-area: aboutleft;
 }
 .aboutright{
-    background-color: #48dbfb;
     position: relative;
     grid-area: aboutright;
 }
@@ -141,7 +144,6 @@ nav .activenav{
 }
 .cghead{
     grid-area: intro;
-    background-color: #48dbfb;
     width: 48vw;
     transform: translateX(-10vw);
     padding: 30px 50px 30px 10vw;
@@ -185,7 +187,8 @@ nav .activenav{
     padding: 2px 10px;
 }
 .category .abutton:hover{
-    background-color: #48dbfb;
+    background-color: #0652dd;
+    color: white;
 }
 .categories .fa{
     padding-left: 5px;
@@ -213,16 +216,12 @@ nav .activenav{
     word-spacing: 6px;
     padding-bottom: 20px;
 }
-.more:hover .abutton{
-    background-color: #48dbfb;
-}
 .more p{
     padding: 5px 0;
     color: #555;
 }
 .more .abutton{
     padding: 5px 20px;
-    border: 2px solid #48dbfb;
     margin-top: 20px;
     font-size: 18px;
 }
@@ -283,7 +282,6 @@ nav .activenav{
 }
 .cbright p{
     width: 65%;
-    background-color: #48dbfb;
     font-size: 18px;
     padding: 20px ;
     color: black;
@@ -314,14 +312,13 @@ nav .activenav{
 }
 .ctright{
     padding: 30px 20px 50px 30px;
-    background: linear-gradient(90deg , #f8f8f8 80%, #48dbfb60 100%);
     border-radius: 0 100px 100px 0;
 }
 .ctright h3{
     font-size: 50px;
 }
 .ctnum{
-    border-left: 4px solid #48dbfb;
+    border-left: 4px solid;
     padding: 20px 25px 0 20px;
     margin-left: 10px;
 }
@@ -344,7 +341,6 @@ nav .activenav{
 .guesthead{
     text-align: center;
     margin: 50px 0 600px;
-    background-color: #48dbfb;
     padding: 100px 10vw;
     height: 50vh;
 }
@@ -366,6 +362,8 @@ nav .activenav{
     padding: 40px 25px 25px;
     background-color: #fff;
     box-shadow: 0 0 30px #0005;
+    position: relative;
+    z-index: 5;
 }
 .guest hr{
     margin: 10px 10%;
@@ -387,11 +385,9 @@ nav .activenav{
 }
 
 .ender{
-    background-color: #48dbfb;
     padding: 320px 10vw 350px;
     text-align: center;
     position: relative;
-    z-index: -1;
 }
 .ender h4{
     font-size: 70px;
@@ -408,19 +404,18 @@ nav .activenav{
     font-weight: bold;
     padding: 10px 50px;
 }
-
-#art3{
+#art3, #art4, #art5{
     position: absolute;
+}
+#art3{
     right: 10px; bottom: 0;
     height: 50vh;
 }
 #art4{
-    position: absolute;
     left: 42vw; bottom: 0;
     height: 20vh;
 }
 #art5{
-    position: absolute;
     left: 0; bottom: 0;
     height: 30vh;
 }
