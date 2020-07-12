@@ -139,7 +139,7 @@ hr.special {
     font-size: 30px;
     padding: 20px 0 0;
 }
-.accentSection p{
+.accentSection  p{
     font-size: 14px;
     padding: 10px 0;
 }
@@ -147,6 +147,13 @@ hr.special {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 10px 15px;
+}
+.accentPallete p{
+    grid-column-start: 1; grid-column-end: 3;
+    font-size: 20px;
+}
+.accentSection.dark .accentPallete p{
+    color: white;
 }
 .accentPallete span, .accentPallete input[type="color"]{
     display: block;
