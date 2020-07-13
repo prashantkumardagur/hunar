@@ -149,7 +149,7 @@ nav .activenav{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 80px 10%;
-    grid-template-areas: 'intro intro . .' '. . . .' '. more more more';
+    grid-template-areas: 'intro intro . .' '. . . .' '. . . .' '. more more more';
     row-gap: 80px;
     column-gap: 3vw;
 }
@@ -200,6 +200,7 @@ nav .activenav{
 .category .abutton{
     font-size: 14px;
     padding: 2px 10px;
+    cursor: pointer;
 }
 .category .abutton:hover{
     background-color: #0652dd;
@@ -251,6 +252,117 @@ nav .activenav{
     margin-top: 20px;
     font-size: 18px;
     color: black;
+}
+
+.categoryScreen{
+    display: grid;
+    transition: inherit;
+    /* display: none; */
+    grid-template-columns: 1fr 2fr;
+    position: fixed;
+    bottom: -120vh; left: 5vw; z-index: 100;
+    height: 90vh; width: 90vw;
+    background-color: #eee;
+    border: 1px solid black;
+    box-shadow: 0 0 200px #000, 0 0 80px #000;
+}
+.categoryScreen.dark{
+    background-color: #111;
+    color: white;
+    box-shadow: 0 0 200px #000, 0 0 80px #000, 0 0 20px #000;
+}
+.categoryScreen .sideImage{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#minimizeCategory{
+    position: absolute;
+    top: 10px; right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.sideInfo{
+    padding: 50px; 
+    overflow-y: scroll;
+    margin: 2px 0;
+}
+.sideInfo::-webkit-scrollbar { width: 10px; }
+.sideInfo::-webkit-scrollbar-track { background: none; }
+.sideInfo::-webkit-scrollbar-thumb { background: #0652dd; border-radius: 5px; }
+.sideInfo::-webkit-scrollbar-thumb:hover { background: #043eab; }
+.sideInfo h5{
+    font-size: 20px;
+}
+.sideInfo h4{
+    font-size: 80px;
+}
+.sideInfo p{
+    font-size: 15px;
+    padding: 20px 0;
+    color: #333;
+}
+.sideInfo.dark p{
+    color: #aaa;
+}
+.sideInfo h6{
+    font-size: 28px;
+    margin: 30px 0 10px;
+}
+.sideInfo ul{
+    padding-left: 1em;
+}
+.sideInfo li{
+    color: #222;
+    font-size: 14px;
+    list-style: none;
+    padding: 2px 0;
+}
+.sideInfo li::before {
+    content: "\2022"; 
+    color: #0652dd;
+    font-size: 1.2em;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+.sideInfo.dark li{
+    color: #aaa;
+}
+.sideInfo section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.categoryJudges{
+    width: 10vw;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 20px #0005;
+}
+.categoryScreen.dark .categoryJudges{
+    background-color: #222;
+    box-shadow: 0 0 30px #000;
+}
+.categoryJudges img{
+    width: 70%;
+    margin: 0 auto 10px;
+    border-radius: 50%;
+}
+.categoryJudges h6{
+    margin: 10px 0;
+    font-size: 16px;
+    font-family: raleway;
+}
+.sideInfo .abutton{
+    background-color: #0652dd;
+    color: white;
+    padding: 5px 40px;
+    font-weight: bold;
+    margin: 50px 0 30px;
+    font-size: 20px;
 }
 
 .cbevent{
@@ -352,6 +464,7 @@ nav .activenav{
 .criteria img{
     display: block;
     width: 100%;
+    margin: 50px 0;
 }
 .ctright{
     padding: 30px 20px 50px 30px;
@@ -384,11 +497,38 @@ nav .activenav{
     border-radius: 50%;
 }
 
+.finale{
+    margin-bottom: 150px;
+    padding: 0 10vw;
+}
+.finale h3{
+    font-size: 60px;
+}
+.finale.dark h3{
+    color: white;
+}
+.finale section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 50px; row-gap: 20px;
+}
+.perk img{
+    width: 70%;
+    margin: 20px auto 10px;
+}
+.perk p{
+    text-align: center;
+    font-size: 16px;
+}
+.finale.dark p{
+    color: #ccc;
+}
+
 .guesthead{
     text-align: center;
-    margin: 50px 0 600px;
+    margin: 50px 0 850px;
     padding: 100px 10vw;
-    height: 50vh;
+    height: 400px;
 }
 .guesthead h3{
     font-size: 60px;
@@ -400,9 +540,9 @@ nav .activenav{
 }
 .guesthead section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 150px;
-    row-gap: 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 4vw;
+    row-gap: 60px;
 }
 .guest.dark{
     background-color: #222;
@@ -413,13 +553,13 @@ nav .activenav{
     color: #ddd;
 }
 .guest{
-    padding: 40px 25px 25px;
+    padding: 25px;
     background-color: #fff;
     box-shadow: 0 0 30px #0005;
     position: relative;
     z-index: 5;
 }
-.guest hr{
+.guest hr, .categoryJudges hr{
     margin: 10px 10%;
 }
 .guest.dark hr{
@@ -433,7 +573,7 @@ nav .activenav{
 }
 .guest h5{
     font-family: raleway, Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 24px;
     padding: 20px 0 5px;
 }
 .guest p{

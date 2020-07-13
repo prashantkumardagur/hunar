@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Submit your video into National level competition HUNAR 3.0 Organized by Creative Beast and The Motion Man 
+                                    to compete alongside the talents across the nation and a chance to win cash Prize.">
     <title>Hunar - e-Reality Show - Talent Show - Creative Beast EMS</title>
     <link rel="icon" href="resources/Logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@600&display=swap" rel="stylesheet">
@@ -14,7 +16,7 @@
 </head>
 <body>
 
-    <div class="maintenance">
+    <!-- <div class="maintenance">
         <h6>Welcome</h6>
         <img src="arts/maintenance.png" alt="under maintenance">
         <blockquote>We are currently Under Maintenance</blockquote>
@@ -22,16 +24,16 @@
         <div>Sorry for inconvenience</div>
         <button class="abutton" id="hidebtn">Continue to website <i class="fa fa-arrow-right" aria-hidden="true"></i></button><br>
         <button id="back"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button>
-    </div>
+    </div> -->
     
     <div class="controls" id="controls">
-        <button class="control" id="darkbtn">
+        <button class="control" id="darkbtn" title="Dark Mode">
             <i class="fa fa-adjust" aria-hidden="true"></i>
         </button>
-        <button class="control" id="themebtn">
+        <button class="control" id="themebtn" title="Change Accent Color">
             <i class="fa fa-paint-brush" aria-hidden="true"></i>
         </button>
-        <button class="control" id="topbtn">
+        <button class="control" id="topbtn" title="Get back to Top of Page">
             <i class="fa fa-arrow-up" aria-hidden="true"></i>
         </button>
         <section class="accentSection theme" id="accentSection">
@@ -57,7 +59,7 @@
         <h2><a href="index.html">HUNAR</a></h2>
         <div>
             <a href="#" class="activenav">Home</a>
-            <a href="#">Register</a>
+            <a href="register/">Register</a>
             <a href="#">Contact Us</a>
         </div>
     </nav>
@@ -69,7 +71,7 @@
         <h2 class="raleway">India's first e-Reality Show</h2>
         <p>Submit your video into National level competition HUNAR 3.0 Organized by Creative Beast and The Motion Man 
             to compete alongside the talents across the nation and a chance to win cash Prize.</p>
-        <a href="#" class="abutton accentbg">Participate Now</a>
+        <a href="register/" class="abutton accentbg">Participate Now</a>
     </div>
 
     </header>
@@ -106,40 +108,60 @@
             <p>Many different categories for participants to show their skills and compete between different people with similar talents.</p>
             <div class="raleway">Explore Your Arena... <i class="fa fa-thumbs-up" aria-hidden="true"></i></div>
         </div>
-        <div class="category theme">
+        <div class="category theme" onclick="expandCategory(0)">
             <img src="thumbnail/dancing.jpg" alt="dance">
             <h4>Dancing</h4>
-            <a href="#" class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
-        <div class="category theme">
+        <div class="category theme" onclick="expandCategory(1)">
             <img src="thumbnail/singing.jpg" alt="singing">
             <h4>Singing</h4>
-            <a href="#" class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
-        <div class="category theme">
+        <div class="category theme" onclick="expandCategory(2)">
             <img src="thumbnail/modelling.jpg" alt="modelling">
             <h4>Modelling</h4>
-            <a href="#" class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
-        <div class="category theme">
+        <div class="category theme" onclick="expandCategory(3)">
             <img src="thumbnail/acting.jpg" alt="skit / mime">
             <h4>Skit / Mime</h4>
-            <a href="#" class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
-        <div class="category theme" id="beatbox">
+        <div class="category theme" onclick="expandCategory(4)">
             <img src="thumbnail/beatboxing.jpg" alt="beatboxing">
             <h4>Beat Boxing</h4>
-            <a href="#" class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
-        <div class="category theme">
+        <div class="category theme" onclick="expandCategory(5)">
             <img src="thumbnail/photography.jpg" alt="photography">
             <h4>Photography</h4>
-            <a href="#" class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
-        <div class="category theme">
+        <div class="category theme" onclick="expandCategory(6)">
             <img src="thumbnail/poetry.jpg" alt="poetry">
             <h4>Poetry</h4>
-            <a href="#" class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="category theme" onclick="expandCategory(7)">
+            <img src="thumbnail/painting.jpg" alt="skit / mime">
+            <h4>Painting</h4>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="category theme" onclick="expandCategory(8)">
+            <img src="thumbnail/intrument.jpg" alt="beatboxing">
+            <h4>Instrument Playing</h4>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="category theme mobihide" onclick="expandCategory(9)">
+            <img src="thumbnail/storytelling.jpg" alt="photography">
+            <h4>Story Telling</h4>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="category theme" onclick="expandCategory(10)">
+            <img src="thumbnail/comedy.jpg" alt="poetry">
+            <h4>Comedy</h4>
+            <a class="abutton">Know More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
         </div>
         <div class="more theme">
             <div>
@@ -149,6 +171,21 @@
                 <a href="" class="abutton raleway accentbg">Explore more <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
             </div>
             <img src="arts/art1.png" alt="More categories">
+        </div>
+    </div>
+
+    <div class="categoryScreen theme" id="categoryScreen">
+        <img src="" alt="" class="sideImage">
+        <div class="sideInfo theme">
+            <i class="fa fa-times-circle" aria-hidden="true" id="minimizeCategory"></i>
+            <h5 class="raleway"></h5>
+            <h4 class="raleway"></h4>
+            <p></p>
+            <h6 class="raleway">Competition Rules :</h6>
+            <ul></ul>
+            <h6 class="raleway">Guests for the category:</h6>
+            <section></section>
+            <a href="register/" class="raleway abutton">Participate Now</a>
         </div>
     </div>
 
@@ -191,14 +228,47 @@
             <div class="ctnum theme">
                 <p>Participants need to register themselves using register option on the website. </p>
                 <p>Candidates whosoever have registered will then send their freshly recorded video for the audition round.</p>
-                <p>Top 100 selected participants by the judges from the audition round would compete to confirm their place for the next 
-                    round and their video would be streaming live on our website.</p>
-                <p>Selected Top 50 participants would again compete to reach to the semi-finals.</p>
-                <p>Selected Top 20 semi- finalist would compete and per week 4 out of them would be eliminated and will be judged using 
-                    online voting and marks given by the judges.</p>
-                <p>Top 4 finalist will then compete in the grand finale to win the Competition.</p>
+                <p>Top 200 selected participants by the judges from the audition round would compete to confirm their place for the next
+                     round to enter the competition.</p>
+                <p>Selected Top 100 participants would further compete to get into the Round 1 of the Mega Event.
+                    There video will be streaming live in our website.</p>
+                <p>Selected Top 50 would compete to go to the Round 2 of the competition.</p>
+                <p>Top 20 selected candidates will then enter to the elimination round that would be held weekly.</p>
+                <p>After elimination Top 10 would reach in the quarter finals and compete to further confirm their place in the semi- finals.</p>
+                <p>Top 6 selected candidates would reach the semi - finals and then  compete to confirm their place in the finals.</p>
+                <p>Top 4 selected candidate would compete in the grand finale to Win the competition.</p>
             </div>
         </div>
+    </div>
+
+    <div class="finale theme">
+        <h3 class="raleway">Perks at Season Finale</h3>
+        <section>
+            <div class="perk">
+                <img src="arts/perk1.png" alt="perk">
+                <p>There will be overall one winner and a runner-up.</p>
+            </div>
+            <div class="perk">
+                <img src="arts/perk2.png" alt="perk">
+                <p>Winner will get a cash prize of Rs 5000/- and a recognition certificate.</p>
+            </div>
+            <div class="perk">
+                <img src="arts/perk3.png" alt="perk">
+                <p>Some categories like modelling, painting, story writing will have different judgement criteria.</p>
+            </div>
+            <div class="perk">
+                <img src="arts/perk4.png" alt="perk">
+                <p>Winner will get a shoutout by the celebrity.</p>
+            </div>
+            <div class="perk">
+                <img src="arts/perk5.png" alt="perk">
+                <p>Participants will get the chance to interact with the celebrities.</p>
+            </div>
+            <div class="perk">
+                <img src="arts/perk6.png" alt="perk">
+                <p>All the participants will be awarded with Participation Certificate.</p>
+            </div>
+        </section>
     </div>
 
     <div class="guesthead accentbg">
@@ -210,7 +280,7 @@
         </p>
         <section>
             <div class="guest theme">
-                <img src="guests/Sunny.jpg" alt="guest">
+                <img src="guests/sunny.jpg" alt="guest">
                 <h5>Sunny Hindustani</h5>
                 <hr class="special">
                 <p>Indian Idol 11 Winner</p>
@@ -245,6 +315,42 @@
                 <hr class="special">
                 <p>Model</p>
             </div>
+            <div class="guest theme">
+                <img src="guests/abhinav.jpg" alt="guest">
+                <h5>Abhinav Anand</h5>
+                <hr class="special">
+                <p>Youtuber</p>
+            </div>
+            <div class="guest theme">
+                <img src="guests/himan.jpg" alt="guest">
+                <h5>Himan Joshi</h5>
+                <hr class="special">
+                <p>MTV Hustle</p>
+            </div>
+            <div class="guest theme">
+                <img src="guests/amaan.jpg" alt="guest">
+                <h5>Amaan Khan</h5>
+                <hr class="special">
+                <p>The Rapping Machine</p>
+            </div>
+            <div class="guest theme">
+                <img src="guests/mukesh.jpg" alt="guest">
+                <h5>Mukesh Rishi</h5>
+                <hr class="special">
+                <p>Actor</p>
+            </div>
+            <div class="guest theme">
+                <img src="guests/deepak.png" alt="guest">
+                <h5>Deepak Soni</h5>
+                <hr class="special">
+                <p>Beat-Boxer</p>
+            </div>
+            <div class="guest theme">
+                <img src="guests/profile.png" alt="guest">
+                <h5>Celeb Name</h5>
+                <hr class="special">
+                <p>Profession</p>
+            </div>
         </section>
     </div>
 
@@ -254,12 +360,13 @@
             There is no need to wait for the opportunity to come when you can create one.<br>
             Hunar is the nation-wide Talent Hunt Show, so if you have a talent, just showcase it to the world.
         </p>
-        <a href="#" class="abutton">Participate Now</a>
+        <a href="register/" class="abutton">Participate Now</a>
         <img id="art3" src="arts/art3.png" alt="artwork">
         <img id="art4" src="arts/art4.png" alt="artwork">
         <img id="art5" src="arts/art5.png" alt="artwork">
     </div>
 
     <script src="home.js"></script>
+    <script src="category.js"></script>
 </body>
 </html>
