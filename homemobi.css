@@ -255,7 +255,7 @@
         margin-right: 10vw;
     }
     .topclass img{
-        width: 30%;
+        width: 40%;
         margin-right: 20vw;
         padding: 10px;
     }
@@ -271,6 +271,7 @@
 
     .finale{
         padding: 0 20px;
+        margin-bottom: 100px;
     }
     .finale section{
         grid-template-columns: 1fr 1fr;
@@ -282,16 +283,20 @@
     }
 
     .faq{
-        margin: 0 20px 150px;
+        margin: 0 0px 150px;
     }
     .faq h3{
-        font-size: 40px;
+        font-size: 60px;
     }
     .faq h5{
         font-size: 16px;
     }
+    .faq article{
+        padding: 0 10px 20px;
+        transform: translateY(-10px);
+    }
     .faq section{
-        padding: 20px 0;
+        padding: 20px 10px;
         text-align: justify;
     }
     .faq h6{
@@ -314,7 +319,7 @@
     .guesthead{
         padding: 60px 5vw;
         height: 420px;
-        margin: 40px 0 1260px;
+        margin: 40px 0 1300px;
     }
     .guesthead h3{
         font-size: 40px;
@@ -343,7 +348,7 @@
     }
 
     .ender{
-        padding: 240px 20px 20vh;
+        padding: 250px 20px 20vh;
     }
     .ender h4{
         font-size: 30px;
