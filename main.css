@@ -134,7 +134,8 @@ hr.special {
 }
 .contactSection a{
     margin: 20px;
-    display: block;
+    display: flex;
+    align-items: center;
     font-size: 14px;
 }
 .contactSection span{
