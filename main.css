@@ -90,7 +90,7 @@ hr.special {
    font-size: 18px;
 }
 #back .fa{
-    margin: 0 5px 0 0; 
+    margin-right: 5px; 
 }
 
 .controls{
@@ -160,6 +160,9 @@ hr.special {
     border-radius: 50%;
     border: 1px solid black;
 }
+.mobishow{
+    display: none;
+}
 
 @media screen and (max-width: 500px){
     .control{
@@ -190,7 +193,11 @@ hr.special {
         padding: 6px 40px;
         font-size: 18px;
     }
+
     .mobihide{
         display: none;
+    }
+    .mobishow{
+        display: inline;
     }
 }

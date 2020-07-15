@@ -497,9 +497,48 @@ nav .activenav{
     border-radius: 50%;
 }
 
+.topclass{
+    margin: 0 0 150px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.topclass.dark{
+    color: white;
+}
+.topclass div{
+    border-left: none;
+    border-radius: 0 200px 200px 0;
+}
+.topclass img{
+    width: 40%;
+    margin: auto;
+    margin-right: 100px;
+    display: block;
+    padding: 20px;
+    transform: scale(1.8);
+}
+.topclass aside{
+    padding: 20px 10vw 20px 50px;
+}
+.topclass h5{
+    font-size: 70px;
+}
+.topclass p{
+    padding: 20px 0;
+    font-size: 15px;
+    color: #333;
+}
+.topclass.dark p{
+    color: #aaa;
+}
+.topclass article{
+    font-size: 18px;
+}
+
 .finale{
     margin-bottom: 150px;
     padding: 0 10vw;
+    clear: both;
 }
 .finale h3{
     font-size: 60px;
@@ -509,12 +548,12 @@ nav .activenav{
 }
 .finale section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 50px; row-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 50px; row-gap: 10px;
 }
 .perk img{
-    width: 70%;
-    margin: 20px auto 10px;
+    width: 90%;
+    margin: 30px auto 10px;
 }
 .perk p{
     text-align: center;
@@ -522,6 +561,67 @@ nav .activenav{
 }
 .finale.dark p{
     color: #ccc;
+}
+
+.faq{
+    margin: 0 10vw 200px;
+}
+.faq.dark{
+    color: #fff;
+}
+.faq h3{
+    font-size: 60px;
+    text-align: center;
+}
+.faqhead{
+    display: flex;
+}
+.faqhead h5{
+    width: 32%;
+    margin: 0 0.5%;
+    text-align: center;
+    border-bottom: 1px solid #0652dd;
+    font-family: raleway, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding:30px 0 5px;
+    cursor: pointer;
+    color: #333;
+}
+.faq.dark h5{
+    color: #aaa;
+}
+.faq .faqhead .activefaq{
+    border-bottom: 5px solid #0652dd;
+    cursor: default;
+    color: inherit;
+}
+.faq section{
+    padding: 20px 1%;
+    display: none;
+}
+.faq section:nth-of-type(1){
+    display: block;
+}
+.faqbody{
+    border-bottom: 2px solid #999;
+    padding: 10px;
+    cursor: pointer;
+}
+.faq h6{
+    font-size: 18px;
+}
+.faq .fa{
+    float: right;
+    margin: 10px;
+}
+.faq p{
+    font-size: 16px;
+    padding: 10px 10px 0 40px;
+    color: #333;
+    display: none;
+}
+.faq.dark p{
+    color: #bbb;
 }
 
 .guesthead{

@@ -245,6 +245,30 @@
         font-size: 14px;
         top: 30px;
     }
+
+    .topclass{
+        grid-template-columns: 1fr;
+        margin: 50px 0 100px;
+        text-align: center;
+    }
+    .topclass div{
+        margin-right: 10vw;
+    }
+    .topclass img{
+        width: 30%;
+        margin-right: 20vw;
+        padding: 10px;
+    }
+    .topclass aside{
+        padding: 40px 20px;
+    }
+    .topclass p{
+        font-size: 13px;
+    }
+    .topclass article{
+        font-size: 16px;
+    }
+
     .finale{
         padding: 0 20px;
     }
@@ -256,11 +280,37 @@
         font-size: 40px;
         text-align: center;
     }
-    .perk p{
-        font-size: 12px;
+
+    .faq{
+        margin: 0 20px 150px;
     }
-    
-    
+    .faq h3{
+        font-size: 40px;
+    }
+    .faq h5{
+        font-size: 16px;
+    }
+    .faq section{
+        padding: 20px 0;
+        text-align: justify;
+    }
+    .faq h6{
+        font-size: 16px;
+        padding-right: 40px;
+    }
+    .faq .fa{
+        font-size: 14px;
+        margin: 5px 10px;
+    }
+    .faq p{
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    .perk p{
+        font-size: 13px;
+    }
+        
     .guesthead{
         padding: 60px 5vw;
         height: 420px;
