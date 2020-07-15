@@ -88,6 +88,6 @@ function customColorSelect(){
 function faqSelection(faq){
     $('.faq h5').removeClass('activefaq');
     $('.faq h5').eq(faq).addClass('activefaq');
-    $('.faq section').hide();
-    $('.faq section').eq(faq).show();
+    $('.faq section').hide(300);
+    $('.faq section').eq(faq).show(300);
 }
