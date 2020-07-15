@@ -65,19 +65,22 @@ var accentColor = localStorage.getItem("accentColor");
 if(accentColor === null){ accentColor = "#37bcff"; }
 $('.accentbg').css("background-color", accentColor);
 $(".ctnum").css("border-color", accentColor);
-$(".faqhead h5").css("border-color", accentColor)
+$(".faqhead h5").css("border-color", accentColor);
 
 $("#pallete span").click(function(){
     var accentColor = $(this).css("background-color"); 
-    localStorage.setItem("accentColor", accentColor)
+    localStorage.setItem("accentColor", accentColor);
     $('.accentbg').css("background-color", accentColor);
     $(".ctnum").css("border-color", accentColor);
+    $(".faqhead h5").css("border-color", accentColor);
 });
 
 function customColorSelect(){
-    var customColor = document.getElementById("customColor");
-    $('.accentbg').css("background-color", customColor.value);
-    $(".ctnum").css("border-color", customColor.value);
+    var accentColor = document.getElementById("customColor").value;
+    localStorage.setItem("accentColor", accentColor);
+    $('.accentbg').css("background-color", accentColor);
+    $(".ctnum").css("border-color", accentColor);
+    $(".faqhead h5").css("border-color", accentColor);
 }
 
 /*------------------------------------------------------------*/

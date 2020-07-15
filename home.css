@@ -399,13 +399,14 @@ nav .activenav{
     font-size: 20px;
     color: #222;
     font-weight: normal;
+    padding-bottom: 15px;
 }
 .cbevent h5.dark{
     color: #ddd;
 }
 .cbevent p{
     font-size: 15px;
-    padding: 15px 30px;
+    padding: 0px 30px 15px;
     color: #555;
 }
 .cbevent p.dark{
@@ -587,7 +588,7 @@ nav .activenav{
 .faqhead h5{
     width: 33%;
     text-align: center;
-    border-bottom: 1px solid #0652dd;
+    border-bottom: 1px solid;
     font-family: raleway, Arial, Helvetica, sans-serif;
     font-size: 20px;
     padding:20px 0 15px;
@@ -601,7 +602,7 @@ nav .activenav{
     color: #aaa;
 }
 .faq .faqhead .activefaq{
-    border-bottom: 7px solid #0652dd;
+    border-bottom: 7px solid;
     cursor: default;
     color: inherit;
 }
@@ -636,7 +637,7 @@ nav .activenav{
 
 .guesthead{
     text-align: center;
-    margin: 50px 0 850px;
+    margin: 50px 0 1300px;
     padding: 100px 10vw;
     height: 400px;
 }

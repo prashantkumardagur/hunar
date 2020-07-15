@@ -209,10 +209,9 @@
     }
     .cbevent .tmmlogo{
         width: 40vw;
-        margin-bottom: 100px;
     }
     .cbright{
-        margin: 0 auto;
+        margin: 80px auto 0;
         width: 101%;
     }
     .cbright p{
@@ -319,7 +318,7 @@
     .guesthead{
         padding: 60px 5vw;
         height: 420px;
-        margin: 40px 0 1300px;
+        margin: 40px 0 1840px;
     }
     .guesthead h3{
         font-size: 40px;
