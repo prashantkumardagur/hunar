@@ -356,6 +356,13 @@ nav .activenav{
     font-size: 16px;
     font-family: raleway;
 }
+.categoryJudges p{
+    padding: 0;
+    font-size: 12px;
+}
+.categoryScreen .categoryJudges .special{
+    background-image: linear-gradient(to right, #fff0, #fff, #fff0);
+}
 .sideInfo .abutton{
     background-color: #0652dd;
     color: white;

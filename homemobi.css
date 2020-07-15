@@ -178,6 +178,9 @@
     .categoryJudges h6{
         font-size: 15px;
     }
+    .categoryJudges p{
+        padding: 0;
+    }
 
     .cbevent{
         grid-template-columns: 1fr;
