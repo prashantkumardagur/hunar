@@ -360,7 +360,7 @@ nav .activenav{
     padding: 0;
     font-size: 12px;
 }
-.categoryScreen .categoryJudges .special{
+.categoryScreen.dark .categoryJudges .special{
     background-image: linear-gradient(to right, #fff0, #fff, #fff0);
 }
 .sideInfo .abutton{

@@ -18,7 +18,7 @@ var categoryContent = [
         image: ["sideimages/modelling.jpg", "sideimages/modelling-mobi.jpg"],
         paragraph: "This is one such talent that each and every one possess. Modelling is the way of presenting yourself. Models are known as the face of fashion. The only things that is needed is confidence of presenting your style in front of the audience. <br><br> If you possess such talent then we are here to provide you with the right platform to embrace this talent and live your dreams by organising a versatile competition at National Level Hunar 3.0. Register yourself now to become a part of Mega event of the year!",
         rules: "<li>Entry fees Rs 100/Person.</li><li>There is no age category, anyone can participate.</li><li>We accept all types of fashion and additionally you can also represent your culture, or your religion or your state.</li><li>Candidates must conduct themselves in a proper manner and portray high moral standards. </li><li>You have to send the freshly recorded video with no editing. There should be no retake or cuts in between the video.</li><li>The duration of the walk should be between 1:00 min to 1:30 min.</li>",
-        judges: '<div class="categoryJudges"><img src="guests/sameer.jpg" alt="guest"><h6>Sameer Mark</h6><hr class="special"><p>Model</p></div><div class="categoryJudges"><img src="guests/sham.jpg" alt="guest"><h6>Sham Khan</h6><hr class="special"><p>Stylist</p></div>'
+        judges: '<div class="categoryJudges"><img src="guests/sameer.jpg" alt="guest"><h6>Sameer Mark</h6><hr class="special"><p>Model</p></div><div class="categoryJudges"><img src="guests/hitendra.jpg" alt="guest"><h6>Hitendra Kapokara</h6><hr class="special"><p>Fashion Choreographer</p></div>'
     },
     {
         name: "Skit / Mime",
