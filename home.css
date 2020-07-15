@@ -601,7 +601,7 @@ nav .activenav{
     color: #aaa;
 }
 .faq .faqhead .activefaq{
-    border-bottom: 5px solid #0652dd;
+    border-bottom: 7px solid #0652dd;
     cursor: default;
     color: inherit;
 }
@@ -609,7 +609,7 @@ nav .activenav{
     padding: 10px 1%;
     display: none;
 }
-.faq section:nth-of-type(1){
+.faq section:nth-of-type(2){
     display: block;
 }
 .faqbody{
