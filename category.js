@@ -74,7 +74,7 @@ var categoryContent = [
         image: ["sideimages/comedy.jpg", "sideimages/comedy-mobi.jpg"],
         paragraph: "Comedy is the special talent that is vulnerable and only few possess this kind of talent. Using your actions, words, gestures to make someone laugh is an extraordinary talent. We all are here to live our life happily but life is not the same all the time. We need some entertainment to keep ourselves out of any difficult situation. Comedy is one such talent that refreshes our mind but it's not an easy task too. <br><br> If you possess such talent then participate in our Mega event HUNAR 3.0. and get your talent  recognized at national level.",
         rules: "<li>Entry fees Rs 100/Person.</li><li>There is no age category, anyone can participate.</li><li>You can perform solo, duo, trio or in a group.</li><li>If you are participating in a group then each member of the group have to register solely and then form a group. No group registration is allowed.</li><li>You have to send the freshly recorded video with no editing. There should be no retake or cuts in between the video.</li><li>The duration of the video should be between 1:00 min to 1:30 min.",
-        judges: '<div class="categoryJudges"><img src="guests/profile.png" alt="guest"><h6>Celeb Name</h6></div>'
+        judges: '<div class="categoryJudges"><img src="guests/jaswant.jpg" alt="guest"><h6>Jaswant Singh</h6></div>'
     }
 ];
 
