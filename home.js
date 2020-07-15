@@ -11,11 +11,19 @@ if(darkMode) { toggleDarkMode(); }
 
 /*--------------------------------------------------*/
 
+var contactPanel = false;
+$("#contactbtn").click(function(){
+    if(contactPanel) $("#contactSection").css("bottom","-100vh");
+    else $("#contactSection").css("bottom","30px");
+    contactPanel=!contactPanel;
+});
+
 $("#hidebtn").click(function(){ $(".maintenance").hide(); });
 $("#back").click(function(){ history.back(); });
 $("#topbtn").click(function(){ gotoTop(); });
-$("#themebtn").click(function(){ $("#accentSection").toggle(); });
-$("#closeAccentSection").click(function(){ $("#accentSection").hide(); });
+$("#themebtn").click(function(){ $("#accentSection").toggle(500); });
+$("#closeAccentSection").click(function(){ $("#accentSection").hide(500); });
+$("#closeContactSection").click(function(){ $("#contactSection").css("bottom","-100vh"); contactPanel=!contactPanel });
 $(".faqbody").click(function(){ $(this).children('p').toggle(200); });
 document.documentElement.scrollLeft=0;
 

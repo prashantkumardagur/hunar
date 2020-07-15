@@ -108,11 +108,11 @@ nav .activenav{
     font-weight: normal;
     padding: 0 5vw 30px;
 }
-.about p{
+.about article{
     font-size: 14px;
     padding: 30px 4vw 60px;
 }
-.about p.dark{
+.about article.dark{
     color: #ccc;
 }
 .aboutright p{
