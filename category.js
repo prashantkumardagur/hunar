@@ -46,7 +46,7 @@ var categoryContent = [
         image: ["sideimages/poetry.jpg", "sideimages/poetry-mobi.jpg"],
         paragraph: "Poetry telling is medium of telling your thoughts, feelings, imaginations to the listener. It allows listener to experience real feelings of the teller. It’s very difficult to express your feelings, thoughts in front of others but some peoples are blessed with this talent. <br><br> We believe this kind of talent should be recognized at big level so we came up with a mega Event Hunar 3.0 that is a versatile competition to provide platform to such talents. <br><br> Register now to Participate in a mega Event of the Year!",
         rules: "<li>Entry fees Rs 100/Person.</li><li>There is no age category, anyone can participate.</li><li>You can use any language in your Poetry.</li><li>The Poetry should be of your own, it should not be copied from anywhere else.</li><li>You have to send the freshly recorded video with no editing. There should be no retake or cuts in between the video.</li><li>The duration of the poetry should be between 1:00 min to 1:30 min.</li>",
-        judges: '<div class="categoryJudges"><img src="guests/profile.png" alt="guest"><h6>Celeb Name</h6></div>'
+        judges: '<div class="categoryJudges"><img src="guests/shrabani.jpg" alt="guest"><h6>Shrabani Deodhar</h6><hr class="special"><p>Film Director</p></div>'
     },
     {
         name: "Painting",
