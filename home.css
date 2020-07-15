@@ -676,11 +676,12 @@ nav .activenav{
     box-shadow: 0 0 30px #0005;
     position: relative;
     z-index: 5;
+    transition: 0.5s;
 }
 .guest hr, .categoryJudges hr{
     margin: 5px 2%;
 }
-.guest.dark hr{
+.guest.dark hr, footer .special{
     background-image: linear-gradient(to right, #fff0, #ffff, #fff0);
 }
 .guest img{
