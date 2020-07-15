@@ -644,23 +644,23 @@ nav .activenav{
 
 .guesthead{
     text-align: center;
-    margin: 50px 0 1300px;
-    padding: 100px 10vw;
-    height: 400px;
+    margin: 50px 0 650px;
+    padding: 100px 5vw;
+    height: 350px;
 }
 .guesthead h3{
     font-size: 60px;
 }
 .guesthead > p{
     font-size: 20px;
-    padding: 30px 0 100px;
+    padding: 30px 5vw 100px;
     color: #333;
 }
 .guesthead section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    column-gap: 4vw;
-    row-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 1vw;
+    row-gap: 20px;
 }
 .guest.dark{
     background-color: #222;
@@ -671,14 +671,14 @@ nav .activenav{
     color: #ddd;
 }
 .guest{
-    padding: 25px;
+    padding: 10px 10px ;
     background-color: #fff;
     box-shadow: 0 0 30px #0005;
     position: relative;
     z-index: 5;
 }
 .guest hr, .categoryJudges hr{
-    margin: 10px 10%;
+    margin: 5px 2%;
 }
 .guest.dark hr{
     background-image: linear-gradient(to right, #fff0, #ffff, #fff0);
@@ -691,11 +691,11 @@ nav .activenav{
 }
 .guest h5{
     font-family: raleway, Arial, Helvetica, sans-serif;
-    font-size: 24px;
-    padding: 20px 0 5px;
+    font-size: 19px;
+    padding: 15px 0 5px;
 }
 .guest p{
-    font-size: 15px;
+    font-size: 14px;
     color: #555;
 }
 
