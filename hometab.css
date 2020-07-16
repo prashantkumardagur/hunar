@@ -107,7 +107,7 @@
     .criteria img{
         display: none;
     }
-    .ctriight{
+    .ctright{
         padding: 0;
     }
     .ctnum{
@@ -288,4 +288,197 @@
     #art5{ height: 18vh; }
     #art4{ height: 13vh; }
     
+}
+
+@media screen and (min-width: 1800px){
+    .righthead{
+        padding: 100px;
+    }
+    .righthead h1{
+        font-size: 100px;
+        letter-spacing: 5px;
+    }
+    .righthead pre{
+        font-size: 24px;
+    }
+    .righthead h2{
+        padding-top: 100px;
+        font-size: 50px;
+    }
+    .righthead p{
+        font-size: 20px;
+    }
+    .righthead .abutton{
+        font-size: 30px;
+        padding: 12px 60px;
+    }
+
+    .about h5{
+        font-size: 36px;
+    }
+    .about h3{
+        font-size: 70px;
+    }
+    .about h6{
+        font-size: 20px;
+    }
+    .about article{
+        font-size: 20px;
+    }
+    .about h4{
+        font-size: 40px;
+    }
+    .aboutright p{
+        font-size: 18px;
+    }
+    .about img{
+        height: 200px;
+    }
+    .aboutright #art8{
+        height: 160px;
+    }
+
+    .tabhide{
+        display: none;
+    }
+    .categories{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 'intro intro . . .' '. . . . .' '. . more more more';
+    }
+    .cghead{
+        width: 130%;
+    }
+
+    .sideInfo h5{
+        font-size: 26px;
+    }
+    .sideInfo h4{
+        font-size: 100px;
+    }
+    .sideInfo p{
+        font-size: 18px;
+    }
+    .sideInfo h6{
+        font-size: 36px;
+    }
+    .sideInfo li{
+        font-size: 20px;
+    }
+    .categoryJudges h6{
+        font-size: 20px;
+    }
+    .categoryJudges p{
+        font-size: 16px;
+    }
+    .sideInfo .abutton{
+        font-size: 30px;
+        padding: 10px 50px;
+    }
+
+    .cbevent h3{
+        font-size: 90px;
+    }
+    .cbevent h4{
+        font-size: 44px;
+    }
+    .cbevent h5{
+        font-size: 24px;
+    }
+    .cbevent p{
+        font-size: 17px;
+    }
+    .cbevent h6{
+        font-size: 24px;
+    }
+    .cbevent span{
+        font-size: 26px;
+    }
+    .cblink{
+        font-size: 22px;
+    }
+
+    .criteria img{
+        width: 90%;
+    }
+    .ctright h3{
+        font-size: 70px;
+    }
+    .ctnum p{
+        font-size: 20px;
+    }
+
+    .topclass{
+        margin: 50px 0 200px;
+    }
+    .topclass h5{
+        font-size: 80px;
+    }
+    .topclass p{
+        font-size: 18px;
+    }
+    .topclass article{
+        font-size: 24px;
+    }
+
+    .finale h3{
+        font-size: 70px;
+    }
+    .perk img{
+        width: auto;
+        height: 200px;
+    }
+    .perk p{
+        font-size: 18px;
+    }
+
+    .faq h3{
+        font-size: 90px;
+    }
+    .faq article{
+        font-size: 20px;
+    }
+    .faqhead h5{
+        font-size: 26px;
+    }
+    .faq h6{
+        font-size: 22px;
+    }
+    .faq p{
+        font-size: 18px;
+    }
+
+    .guesthead{
+        height: 400px;
+        margin-bottom: 700px;
+    }
+    .guesthead h3{
+        font-size: 80px;
+    }
+    .guesthead > p{
+        font-size: 22px;
+    }
+    .guesthead section{
+        column-gap: 2vw; row-gap: 2vw;
+        padding: 0 5vw;
+    }
+    .guest{
+        padding: 20px;
+    }
+
+    .ender{
+        padding: 350px 10vw 400px;
+    }
+    .ender h4{
+        font-size: 90px;
+    }
+    .ender p{
+        font-size: 24px;
+    }
+    .ender .abutton{
+        font-size: 40px;
+        padding: 14px 100px;
+    }
+    #art3{height: 36vh; right: 5px;}
+    #art4{height: 14vh;}
+    #art5{height: 18vh;}
 }

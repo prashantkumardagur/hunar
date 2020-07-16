@@ -230,7 +230,7 @@ nav .activenav{
     box-shadow: 0 0 30px #000;
 }
 .more img{
-    height: 100%;
+    height: 250px;
 }
 .more h5{
     font-size: 45px;
@@ -390,11 +390,13 @@ nav .activenav{
     width: 10vw;
     display: block;
     margin: 50px auto 20px;
+    max-width: 150px;
 }
 .cbevent .tmmlogo{
     width: 15vw;
     display: block;
     margin: 10px auto;
+    max-width: 200px;
 }
 .cbevent h4{
     font-size: 34px;
@@ -429,12 +431,12 @@ nav .activenav{
 }
 .cbright{
     background-color: #0652dd;
-    width: 120%;
+    width: 100%;
     margin-left: 20%;
     height: fit-content;
 }
 .cbright p{
-    width: 65%;
+    width: 80%;
     font-size: 18px;
     padding: 20px ;
     color: black;
