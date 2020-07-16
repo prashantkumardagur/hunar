@@ -25,6 +25,8 @@ $("#themebtn").click(function(){ $("#accentSection").toggle(500); });
 $("#closeAccentSection").click(function(){ $("#accentSection").hide(500); });
 $("#closeContactSection").click(function(){ $("#contactSection").css("bottom","-100vh"); contactPanel=!contactPanel });
 $(".faqbody").click(function(){ $(this).children('p').toggle(200); });
+
+var vh = document.querySelector('header').offsetHeight;
 document.documentElement.scrollLeft=0;
 
 
@@ -46,7 +48,8 @@ function toggleDarkMode(){
 
 var controls = document.getElementById("controls");
 
-window.onscroll = function(){ scrollfunc(); }
+window.onscroll = function(){ scrollfunc(); navFunc(); toggleNav()}
+
 function scrollfunc(){
     if (document.body.scrollTop > 700 || document.documentElement.scrollTop > 700) {
         controls.style.bottom = "10px";
@@ -57,6 +60,25 @@ function scrollfunc(){
 function gotoTop(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+}
+
+function navFunc(){
+    if (document.body.scrollTop > vh || document.documentElement.scrollTop > vh){
+        $("#navBar").addClass('coloredNav');
+    } else {
+        $("#navBar").removeClass('coloredNav');
+    }
+}
+
+var prevScrollpos = window.pageYOffset;
+function toggleNav() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navBar").style.top = "0";
+  } else {
+    document.getElementById("navBar").style.top = "-80px";
+  }
+  prevScrollpos = currentScrollPos;
 }
 
 /*---------------------------------------------------*/
