@@ -191,12 +191,43 @@
     }
 
     .righthead{
-        padding: 50px;
+        padding: 100px 50px;
     }
+    .righthead h1{
+        font-size: 70px;
+    }
+    .righthead pre{
+        font-size: 16px;
+    }
+    .righthead h2{
+        font-size: 40px;
+    }
+    .righthead p{
+        font-size: 16px;
+    }
+    .righthead .abutton{
+        font-size: 24px;
+    }
+
 
     .about{
         margin: 0;
         padding: 100px 6vw;
+    }
+    .about h5{
+        font-size: 24px;
+    }
+    .about h3{
+        font-size: 50px;
+    }
+    .about h6{
+        font-size: 16px;
+    }
+    .about article{
+        font-size: 14px;
+    }
+    .about h4{
+        font-size: 30px;
     }
 
     .categories{
@@ -207,8 +238,23 @@
     .cghead{
         width: 90vw;
     }
+    .cghead h3{
+        font-size: 70px;
+    }
+    .cghead p{
+        font-size: 20px;
+    }
+    .cghead div{
+        font-size: 26px;
+    }
     .category{
         margin: 0;
+    }
+    .category h4{
+        font-size: 24px;
+    }
+    .category .abutton{
+        font-size: 14px;
     }
     .more{
         margin: 0;
@@ -220,15 +266,63 @@
         position: absolute;
         right: 0; bottom: 0;
     }
+    .more h5{
+        font-size: 40px;
+    }
     .more p{
         font-size: 14px;
         position: relative;
         z-index: 2;
     }
+    .more .abutton{
+        font-size: 18px;
+    }
 
+    .sideInfo h5{
+        font-size: 20px;
+    }
+    .sideInfo h4{
+        font-size: 80px;
+    }
+    .sideInfo p{
+        font-size: 15px;
+    }
+    .sideInfo h6{
+        font-size: 28px;
+    }
+    .sideInfo li{
+        font-size: 14px;
+    }
+    .categoryJudges h6{
+        font-size: 12px;
+    }
+    .categoryJudges p{
+        font-size: 12px;
+    }
+    .sideInfo .abutton{
+        font-size: 20px;
+    }
 
     .cbevent{
         padding: 50px 2vw 150px;
+    }
+    .cbevent h3{
+        font-size: 70px;
+    }
+    .cbevent h4{
+        font-size: 34px;
+    }
+    .cbevent h5{
+        font-size: 20px;
+    }
+    .cbevent p{
+        font-size: 15px;
+    }
+    .cbevent h6{
+        font-size: 20px;
+    }
+    .cblink{
+        font-size: 18px;
     }
     .cbright p{
         font-size: 16px;
@@ -239,9 +333,15 @@
     .cbright p{
         width: 90%;
     }
+    .cbright .fa{
+        font-size: 24px;
+    }
 
     .criteria{
         padding: 0 4vw 100px;
+    }
+    .ctright h3{
+        font-size: 50px;
     }
     .ctnum{
         padding: 0 0 0 20px;
@@ -256,15 +356,40 @@
     .topclass h5{
         font-size: 50px;
     }
+    .topclass p{
+        font-size: 15px;
+    }
+    .topclass article{
+        font-size: 18px;
+    }
 
     .finale{
         padding: 0 3vw;
+    }
+    .finale h3{
+        font-size: 60px;
     }
     .finale section{
         column-gap: 10px;
     }
     .perk p{
         font-size: 15px;
+    }
+
+    .faq h3{
+        font-size: 60px;
+    }
+    .faq article{
+        font-size: 16px;
+    }
+    .faqhead h5{
+        font-size: 20px;
+    }
+    .faq h6{
+        font-size: 18px;
+    }
+    .faq p{
+        font-size: 16px;
     }
 
     .guesthead h3{
@@ -277,12 +402,21 @@
         padding: 80px 3vw;
         margin: 50px 0 550px;
     }
+    .guest h5{
+        font-size: 19px;
+    }
+    .guest p{
+        font-size: 14px;
+    }
 
     .ender{
         padding: 300px 8vw 300px;
     }
     .ender h4{
         font-size: 50px;
+    }
+    .ender p{
+        font-size: 20px;
     }
     #art3{ right: 0; height: 35vh; }
     #art5{ height: 18vh; }
