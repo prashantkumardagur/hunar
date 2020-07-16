@@ -333,6 +333,7 @@
     .guesthead section{
         grid-template-columns: 1fr 1fr;
         column-gap: 20px;
+        padding: 0;
         row-gap: 20px;
     }
     .guest{
