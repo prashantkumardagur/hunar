@@ -184,3 +184,108 @@
     #art4{ height: 11vh; }
     #art5{ height: 17vw; }
 }
+
+@media screen and (max-width: 1200px){
+    .tabhide{
+        display: none;
+    }
+
+    .righthead{
+        padding: 50px;
+    }
+
+    .about{
+        margin: 0;
+        padding: 100px 6vw;
+    }
+
+    .categories{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'intro intro intro' '. . .' '. . .' '. . .' '. more more';
+        row-gap: 50px; column-gap: 60px;
+    }
+    .cghead{
+        width: 90vw;
+    }
+    .category{
+        margin: 0;
+    }
+    .more{
+        margin: 0;
+        position: relative;
+        padding: 20px;
+    }
+    .more img{
+        height: 150px;
+        position: absolute;
+        right: 0; bottom: 0;
+    }
+    .more p{
+        font-size: 14px;
+        position: relative;
+        z-index: 2;
+    }
+
+
+    .cbevent{
+        padding: 50px 2vw 150px;
+    }
+    .cbright p{
+        font-size: 16px;
+    }
+    .cbright{
+        width: 84%;
+    }
+    .cbright p{
+        width: 90%;
+    }
+
+    .criteria{
+        padding: 0 4vw 100px;
+    }
+    .ctnum{
+        padding: 0 0 0 20px;
+    }
+    .ctnum p{
+        font-size: 15px;
+    }
+
+    .topclass aside{
+        padding: 20px 30px 20px 40px;
+    }
+    .topclass h5{
+        font-size: 50px;
+    }
+
+    .finale{
+        padding: 0 3vw;
+    }
+    .finale section{
+        column-gap: 10px;
+    }
+    .perk p{
+        font-size: 15px;
+    }
+
+    .guesthead h3{
+        font-size: 50px;
+    }
+    .guesthead > p{
+        font-size: 16px;
+    }
+    .guesthead{
+        padding: 80px 3vw;
+        margin: 50px 0 550px;
+    }
+
+    .ender{
+        padding: 300px 8vw 300px;
+    }
+    .ender h4{
+        font-size: 50px;
+    }
+    #art3{ right: 0; height: 35vh; }
+    #art5{ height: 18vh; }
+    #art4{ height: 13vh; }
+    
+}
