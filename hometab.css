@@ -1,0 +1,186 @@
+@media screen and (max-width: 900px){
+    .tabhide{
+        display: none;
+    }
+
+    header{
+        background: url(resources/tabbg.png);
+        background-size: cover;
+    }
+    .righthead{
+        padding: 10px;
+        text-align: center;
+    }
+    .righthead h1{
+        font-size: 10vw;
+    }
+    .righthead h2{
+        padding-top: 20px;
+        font-size: 5vw;
+    }
+    .righthead p{
+        padding: 40vh 50px 0;
+    }
+    .righthead .abutton{
+        top: 0;
+    }
+
+    .about{
+        margin: 0;
+        padding: 100px 30px;
+    }
+    .about article{
+        padding: 30px 1vw;
+    }
+
+    .categories{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'intro intro intro' '. . .' '. . .' '. . .' '. more more';
+        padding: 80px 5%;
+        row-gap: 30px; column-gap: 30px;
+    }
+    .cghead{
+        width: 95vw;
+    }
+    .category{
+        margin: 0;
+    }
+    .more{
+        margin: 0;
+        position: relative;
+        padding: 20px;
+    }
+    .more img{
+        height: 120px;
+        position: absolute;
+        bottom: 0; right: 0;
+    }
+    .more h5{
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    .more p{
+        font-size: 14px;
+        position: relative;
+        z-index: 2;
+    }
+
+    .categoryScreen{
+        grid-template-columns: 1fr;
+    }
+    .categoryScreen .sideImage{
+        height: auto;
+    }
+    .categoryJudges{
+        width: 150px;
+    }
+
+    .cbevent{
+        grid-template-columns: 1fr;
+        grid-template-areas: 'header' '.' '.';
+        padding: 120px 0;
+    }
+    .cbevent h3{
+        text-align: center;
+    }
+    .cbevent .cblogo{
+        width: 14vw;
+    }
+    .cbevent .tmmlogo{
+        width: 25vw;
+    }
+    .cbright{
+        margin: 80px auto 0;
+        width: 101%;
+    }
+    .cbright p{
+        width: 65%;
+        top: 0; left: 0;
+        margin: auto;
+        font-size: 14px;
+        transform: scale(1.15);
+    }
+
+    .criteria{
+        grid-template-columns: 1fr;
+    }
+    .criteria img{
+        display: none;
+    }
+    .ctriight{
+        padding: 0;
+    }
+    .ctnum{
+        padding: 0 20px;
+    }
+    .ctnum p{
+        top: 40px;
+    }
+
+    .topclass{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .topclass div{
+        margin-right: 100px;
+        margin-bottom: 50px;
+    }
+    .topclass img{
+        width: 20%;
+        margin-right: 25vw;
+        transform: scale(2.2);
+    }
+    .topclass aside{
+        padding: 20px 5vw;
+    }
+
+    .finale{
+        padding: 0 20px;
+    }
+    .finale h3{
+        font-size: 50px;
+        text-align: center;
+    }
+    .finale section{
+        column-gap: 20px;
+    }
+    .perk p{
+        font-size: 14px;
+    }
+
+    .faq{
+        margin: 0 2vw 200px;
+    }
+    .faq section{
+        padding: 10px 5%;
+    }
+    .faq p{
+        padding: 10px;
+    }
+
+    .guesthead{
+        padding: 60px 0;
+        margin: 50px 0 1600px;
+    }
+    .guesthead h3{
+        font-size: 44px;
+    }
+    .guesthead > p{
+        font-size: 18px;
+    }
+    .guesthead section{
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 0 50px;
+        column-gap: 30px;
+    }
+
+    .ender{
+        padding: 340px 5vw 300px;
+    }
+    .ender h4{
+        font-size: 44px;
+    }
+    #art3{ height: 29vh; right: 0; }
+    #art4{ height: 11vh; }
+    #art5{ height: 17vw; }
+}

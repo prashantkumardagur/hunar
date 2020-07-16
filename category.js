@@ -86,7 +86,7 @@ var categoryContent = [
 ];
 
 function expandCategory(x){
-    if(window.innerWidth<500) $(".sideImage").attr("src", categoryContent[x].image[1]);
+    if(window.innerWidth<900) $(".sideImage").attr("src", categoryContent[x].image[1]);
     else $(".sideImage").attr("src", categoryContent[x].image[0]);
     $(".sideInfo h5").html("Category " + (x+1));
     $(".sideInfo h4").html(categoryContent[x].name);

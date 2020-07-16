@@ -49,9 +49,6 @@ nav .activenav{
     padding: 60px 100px;
     color: white;
 }
-.righthead img{
-    display: none;
-}
 .righthead h1{
     font-size: 80px;
     letter-spacing: 2px;
@@ -508,7 +505,7 @@ nav .activenav{
 .topclass{
     margin: 0 0 150px;
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 1fr 2fr;
 }
 .topclass.dark{
     color: white;
