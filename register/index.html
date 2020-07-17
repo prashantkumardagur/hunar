@@ -5,21 +5,172 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Submit your video into National level competition HUNAR 3.0 Organized by Creative Beast and The Motion Man 
                                     to compete alongside the talents across the nation and a chance to win cash Prize.">
-    <title>Hunar - e-Reality Show - Talent Show - Creative Beast EMS</title>
-    <link rel="icon" href="../resources/Logo.png">
+    <title>Register for Hunar 3.0 - e-Reality Show - Talent Show - Creative Beast EMS</title>
+    <link rel="icon" href="resources/Logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Raleway:wght@600&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../main.css">
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
-    <div class="maintenance">
-        <h6>Hunar 3.0 Registrations</h6>
-        <img src="../arts/maintenance.png" alt="under maintenance">
-        <blockquote>Under Construction</blockquote>
-        <p>The registerations will start very soon ...<br>Stay tuned ...</p>
-        <div>Sorry for inconvenience</div>
-        <button style="cursor: pointer;" id="back" onclick="history.back()"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</button>
-    </div>
+    <nav class="theme" id="navBar">
+        <h2><a href="../index.html">HUNAR</a></h2>
+        <div>
+            <a href="../">Home</a>
+            <a href="#" class="activenav">Register</a>
+            <a href="#">Log In</a>
+        </div>
+    </nav>
+
+    <header class="accentbg">
+        
+    </header>
+        <form method="POST">
+            <h1 class="raleway">Registration Form</h1>
+            <div class="formgroup">
+                <h3>Basic Info</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required placeholder="Candidate's Name">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+                <label for="phone">Phone Number</label>
+                <input type="number" id="phone" name="phone" required placeholder="Your Contact Number" min="1000000000" max="9999999999">
+                <section>
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" required placeholder="Candidate's Age" min="3" max="150">
+                    </div>
+                    <div>
+                        <label for="gender">Gender</label>
+                        <select type="number" id="gender" name="gender" required>
+                            <option value="male">Male</option>
+                            <option value="male">Female</option>
+                            <option value="male">Others</option>
+                        </select>
+                    </div>
+                </section>
+            </div>
+            <div class="formgroup">
+                <h3>Location Info</h3>
+                <section>
+                    <div>
+                        <label for="city">City</label>
+                        <input type="text" id="city" name="city" required placeholder="City Name">
+                    </div>
+                    <div>
+                        <label for="district">District</label>
+                        <input type="text" id="district" name="district" required placeholder="District Name">
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <label for="state">State</label>
+                        <select id="phone" name="phone" required>
+                            <option value="Andhra Pradesh">Andhra Pradesh</option><option value="Arunachal Pradesh">Arunachal Pradesh</option><option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option><option value="Chhattisgarh">Chhattisgarh</option><option value="Goa">Goa</option>
+                            <option value="Gujrat">Gujrat</option><option value="Haryana">Haryana</option><option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jharkhand">Jharkhand</option><option value="Karnataka">Karnataka</option><option value="Kerala">Kerala</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option><option value="Maharashtra">Maharashtra</option><option value="Manipur">Manipur</option>
+                            <option value="Meghalaya">Meghalaya</option><option value="Mizoram">Mizoram</option><option value="Nagaland">Nagaland</option>
+                            <option value="Odisha">Odisha</option><option value="Punjab">Punjab</option><option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option><option value="Tamil Nadu">Tamil Nadu</option><option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option><option value="Uttar Pradesh">Uttar Pradesh</option><option value="Uttarakhand">Uttarakhand</option>
+                            <option value="West Bengal">West Bengal</option><option disabled>Union Territory</option>
+                            <option value="Andaman & Nicobar">Andaman & Nicobar</option><option value="Chandigarh">Chandigarh</option><option value="Dadra & Nagar Haveli">Dadra & Nagar Haveli</option>
+                            <option value="Daman & Diu">Daman & Diu</option><option value="Delhi">Delhi</option><option value="Jammu & Kashmir">Jammu & Kashmir</option>
+                            <option value="Ladakh">Ladakh</option><option value="Lakshaweep">Lakshaweep</option><option value="Puducherry">Puducherry</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="pin">District</label>
+                        <input type="number" id="pin" name="pin" required placeholder="PIN Code" min="100000" max="999999">
+                    </div>
+                </section> 
+            </div>
+            <div class="formgroup">
+                <h3>Talent Profile</h3>
+                <section>
+                    <div>
+                        <label for="talent">Your Talent</label>
+                        <input type="text" id="talent" name="talent" required placeholder="Talent Name">
+                    </div>
+                    <div>
+                        <label for="category">Your Talent Category</label>
+                        <select name="category" id="category">
+                            <option value="Dancing">Dancing</option>
+                            <option value="Singing">Singing</option>
+                            <option value="Modelling">Modelling</option>
+                            <option value="Skit / Mime / Drama">Skit / Mime / Drama</option>
+                            <option value="Beat Boxing">Beat Boxing</option>
+                            <option value="Photograpgy">Photograpgy</option>
+                            <option value="Poetry">Poetry</option>
+                            <option value="Painting">Painting</option>
+                            <option value="Rapping">Rapping</option>
+                            <option value="Story Telling">Story Telling</option>
+                            <option value="Comedy">Comedy</option>
+                            <option value="Others...">Others...</option>
+                        </select>
+                    </div>
+                </section>
+            </div>
+            <div class="formgroup">
+                <h3>Important Info</h3>
+                <ul>
+                    <li>Please make sure that all entered infoformation is correct. You will not be able to change later.</li>
+                    <li>From here, You will be forwarded to payment link for registration fees.</li>
+                    <li>The registration Fees is <strong>Rs. 100</strong></li>
+                </ul>
+            </div>
+            <input class="abutton raleway" type="submit" value="Proceed to Payment">
+        </form>
+
+    <footer class="accentbg">
+        <img src="../resources/CBblue.png" alt="Creative Beast Logo">
+        <h2 class="raleway">Creative Beast</h2>
+        <blockquote>- Turning Small Ideas Into BIG -</blockquote>
+        <hr class="special">
+        <section>
+            <article>
+                Creative Beast event management services is one of the startup which grew from being a leading student organization in 
+                Lovely Professional University🎓 where we bring brilliant and innovative minds together to stand, build and create.
+                We organized various cultural events in LPU, be it a University level, national level or an International level.
+                We have handled more than dozen of celebrities with our ways of organising an event.
+                We have set standards for the works we have done in the campus.
+                We believe that the team work is something which gives the organization a name and fame for the events that 
+                are organised and just to let you know, we put our heart out for accomplishing any event.
+            </article>
+            <div class="followLinks">
+                <h4>Follow Us On</h4>
+                <div>
+                    <a aria-label="Facebook link" href="https://m.facebook.com/CreativeBeastLPU/"><i class="fa fa-facebook-square" aria-hidden="true" style="color: #0625dd;"></i></a>
+                    <a aria-label="Instagram link" href="https://instagram.com/creativebeastofficial?igshid=b4iuds3cauic"><i class="fa fa-instagram" aria-hidden="true" style="color: #CF075E;"></i></a>
+                    <a aria-label="Youtube link" href="https://www.youtube.com/channel/UCiHXv7Lruf9vXLBteBP3QOA"><i class="fa fa-youtube-play" aria-hidden="true" style="color: #ff0000;"></i></a>
+                    <a aria-label="LinkedIn link" href="https://www.linkedin.com/in/creative-beast-705725192"><i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0077B5;"></i></a>
+                    <a aria-label="Twitter link" href="https://twitter.com/CreativebeastE1?s=09"><i class="fa fa-twitter-square" aria-hidden="true" style="color: #2CAAE1;"></i></a>
+                </div>
+            </div>
+        </section>
+        <h4>Contact Us</h4>
+        <p>thecreativebeastlpu@gmail.com<span></span>+91 (IND) 8360274102, 8847578551</p>
+        <p class="copyright">
+            © Copyright 2020 creativebeastevents.com ( Creative Beast EMS Pvt. Ltd. - Events management services ) - All Rights Reserved
+        </p>
+    </footer>
+
+    <script>
+        window.onscroll = function(){navFunc();}
+        function navFunc(){
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+                $("#navBar").addClass('coloredNav');
+            } else {
+                $("#navBar").removeClass('coloredNav');
+            }
+        }
+
+        var accentColor = localStorage.getItem("accentColor");
+        if(accentColor === null){ accentColor = "#37bcff"; }
+        $('.accentbg').css("background-color", accentColor);
+    </script>
 </body>
 </html>

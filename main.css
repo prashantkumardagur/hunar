@@ -37,7 +37,7 @@ nav{
     align-content: center;
     color: white;
     z-index: 999;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 .coloredNav{
     background-color: white;
@@ -60,7 +60,7 @@ nav div{
     margin-left: 40px;
 }
 nav div a{
-    padding: 25px 15px 35px;
+    padding: 25px 15px 34px;
     font-weight: bold;
     font-family: raleway, Arial, Helvetica, sans-serif;
     display: inline-block;
@@ -70,7 +70,7 @@ nav div a{
     top: -4px;
 }
 nav .activenav{
-    border-bottom: 4px solid #0652dd;
+    border-bottom: 5px solid #0652dd;
 }
 
 .abutton{
@@ -301,6 +301,20 @@ footer .copyright{
 @media screen and (max-width: 500px){
     .control{
         box-shadow: 0 0 20px black;
+    }
+    
+    nav{
+        height: 50px;
+    }
+    nav h2, nav img{
+        display: none;
+    }
+    nav div{
+        margin: 0;
+    }
+    nav div a{
+        padding: 13px 10px;
+        top: 0;
     }
 
     .maintenance{

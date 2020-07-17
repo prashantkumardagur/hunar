@@ -1,0 +1,141 @@
+nav{
+    color: black;
+}
+
+header{
+    height: 300px;
+    box-sizing: border-box;
+}
+form{
+    background-color: white;
+    width: 700px;
+    margin: auto;
+    padding: 30px 60px;
+    border: 1px solid #bbb;
+    position: relative;
+    top: -150px;
+}
+.formgroup{
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+h3{
+    font-family: raleway, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+label{
+    display: block;
+    font-family: raleway, Arial, Helvetica, sans-serif;
+    color: #333;
+    margin-top: 30px;
+}
+input, select{
+    background: none;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding-top: 5px;
+    font-size: 20px;
+}
+input:valid, select:valid{
+    border-bottom: 2px solid #0652dd;
+}
+input:invalid, select:required:invalid{
+    border-bottom: 2px solid #f00;
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+}
+option{
+    font-size: 13px;
+}
+ul{
+    padding: 20px 0;
+    margin-left: 1em;
+}
+input.abutton{
+    border: none;
+    background-color: #0652dd;
+    color: white;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    padding: 10px 100px;
+}
+
+footer{
+    color: black;
+}
+footer article{
+    color: #111;
+}
+footer .copyright{
+    color: #000;
+}
+footer .fa{
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+footer .followLinks a{
+    margin-right: 10px;
+}
+footer img{
+    filter: none;
+}
+
+@media screen and (max-width: 500px){
+    header{
+        height: 200px;
+    }
+    form{
+        width: 90vw;
+        box-sizing: border-box;
+        top: -100px;
+        padding: 20px;
+    }
+    h1{
+        font-size: 32px;
+        padding-bottom: 50px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    label{
+        margin-top: 20px;
+        font-size: 14px;
+    }
+    input, select{
+        font-size: 16px;
+        padding: 0;
+    }
+    .formgroup{
+        margin-bottom: 50px;
+    }
+    section{
+        grid-template-columns: 1fr;
+    }
+    input.abutton{
+        padding: 6px 30px;
+    }
+    li{
+        font-size: 14px;
+    }
+    footer .fa{
+        background-color: white;
+        padding: 10px;
+        border-radius: 50%;
+        font-size: 24px;
+    }
+    footer .followLinks a{
+        margin-right: 10px;
+    }
+}
