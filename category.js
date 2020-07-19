@@ -39,7 +39,7 @@ var categoryContent = [
         image: ["sideimages/photography.jpg", "sideimages/photography-mobi.jpg"],
         paragraph: "Photography is a very special art that represents your connection with the world around you, a means of you to tell the story. It is the art of observation that a photographer can see in especially in most normal things. <br><br> Everyone is a photographer but only few have the capability to describe their view of looking around and capturing the emotions, beauty around us all and here this art becomes a talent that only few people among whole have. We believe if one have this amazing talent then we should provide them the opportunity to showcase their talent to the world and talent should not be confined. <br><br> So we have come up with the idea of this National level competition Hunar 3.0 to carry on with your dreams and learn by competing with the talents across the nation. Register now and be a part of Mega Event of the Year!!",
         rules: "<li>Entry fees Rs 100/Person.</li><li>There is no age category, anyone can participate.</li><li>We accept all kinds of Photography such as adventure, candid, cityscape etc.</li><li>Photos submitted must be at least 640 pixels on the shorter side, and no more than 2000 pixels on the longer side. Images should be no larger than 2MB. Photos must be in JPEG format.</li><li>Basic editing, including colour enhancement, the use of filters, and cropping of the Photo(s) is acceptable, provided any such editing does not affect the authenticity and/or genuineness of the Photo(s).</li><li>Advanced editing used to create illusions, deceptions and/or manipulations, and the adding and removing of significant elements within the frame is prohibited.</li><li>Photos that portray or otherwise include inappropriate and/or offensive content, including provocative nudity, violence, human rights and/or environmental violation, and/or any other contents deemed to be contrary to the law, religious, cultural & moral traditions and practices of India, are strictly prohibited and will be immediately discarded.</li>",
-        judges: '<div class="categoryJudges"><img src="guests/profile.png" alt="guest"><h6>Celeb Name</h6></div>'
+        judges: ''
     },
     {
         name: "Poetry",
@@ -53,7 +53,7 @@ var categoryContent = [
         image: ["sideimages/painting.jpg", "sideimages/painting-mobi.jpg"],
         paragraph: "A sketch is a rapidly executed freehand drawing that is not usually intended as a finished work. A sketch may serve a number of purposes: it might record something that the artist sees, it might record or develop an idea for later use or it might be used as a quick way of graphically demonstrating an image, idea and Painting is not just an expressing but from time, a thumb print of history, and in a painting, if one listens, and observe not just through eyes but the heart, they will hear how life began. <br><br> If you have such beautiful art then go ahead and participate and let your talent shine by participating in the National level Competition Hunar 3.0. Register now to be a part of the Mega Event of the Year!",
         rules: "<li>Entry fees Rs 100/Person.</li><li>There is no age category, anyone can participate.</li><li>We accept all kinds of theme for your art.</li><li>Both 2D and 3D work is eligible.</li><li>You can use any types of colour like oil, water colour, pastel, acrylic, etc.</li><li>Paintings must be created in physical media (no digital 'paintings').</li><li>You may only submit your own artwork that you, personally created.</li><li>File submitted must be in a jpeg format.</li>",
-        judges: '<div class="categoryJudges"><img src="guests/profile.png" alt="guest"><h6>Celeb Name</h6></div>'
+        judges: ''
     },
     {
         name: "Rapping",
@@ -94,6 +94,8 @@ function expandCategory(x){
     $(".sideInfo ul").html(categoryContent[x].rules);
     $(".sideInfo section").html(categoryContent[x].judges);
     $("#categoryScreen").css("bottom", "5vh");
+    if(x==5||x==7) $('#guestheading').hide();
+    else $('#guestheading').show();
 }
 $("#minimizeCategory").click(function(){ $("#categoryScreen").css("bottom", "-120vh"); });
 
