@@ -213,7 +213,11 @@
     }
     .guesthead{
         padding: 80px 3vw;
-        margin: 50px 0 550px;
+        margin: 50px 0 800px;
+    }
+    .guesthead section{
+        column-gap: 20px;
+        row-gap: 10px;
     }
     .guest h5{
         font-size: 19px;
@@ -399,7 +403,7 @@
 
     .guesthead{
         padding: 60px 0;
-        margin: 50px 0 1600px;
+        margin: 50px 0 1130px;
     }
     .guesthead h3{
         font-size: 44px;
@@ -408,9 +412,9 @@
         font-size: 18px;
     }
     .guesthead section{
-        grid-template-columns: 1fr 1fr 1fr;
-        padding: 0 50px;
-        column-gap: 30px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 20px;
+        column-gap: 10px;
     }
 
     .ender{
@@ -583,7 +587,7 @@
 
     .guesthead{
         height: 400px;
-        margin-bottom: 700px;
+        margin-bottom: 1300px;
     }
     .guesthead h3{
         font-size: 80px;
@@ -597,6 +601,10 @@
     }
     .guest{
         padding: 20px;
+    }
+    .guest img{
+        max-width: 280px;
+        margin: auto;
     }
 
     .ender{
