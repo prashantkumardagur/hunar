@@ -81,7 +81,7 @@ var categoryContent = [
         image: ["sideimages/others.jpg", "sideimages/others-mobi.jpg"],
         paragraph: "We feel happy to include this category for those who have different talents but are only looking for the opportunity to perform and showcase their talent at some bigger level. So here we are with a national level competition Hunar 3.0 that provides you the platform to shine and get recognized. This competition will provide you a competitive environment to polish your talent and grow. <br><br> If you have such talents in you then register now and become the part of the Mega Event of the Year!!",
         rules: "<li>Entry fees Rs 100/Person.</li><li>There is no age category, anyone can participate.</li><li>You can perform solo, duo, trio or in a group.</li><li>If you are participating in a group then each member of the group have to register solely and then form a group. No group registration is allowed.</li><li>You have to send the freshly recorded video with no editing. There should be no retake or cuts in between the video.</li><li>The duration of the video should be between 1:00 min to 1:30 min.</li>",
-        judges: '<div class="categoryJudges"><img src="guests/abhinav.jpg" alt="guest"><h6>Abhinav Anand</h6><hr class="special"><p>Youtuber</p></div>'
+        judges: '<div class="categoryJudges"><img src="thumbnail/martialArts.jpg" alt="guest"><h6>Martial Arts</h6><hr class="special"><p>Stunts</p></div><div class="categoryJudges"><img src="thumbnail/cube.jpg" alt="guest"><h6>Rubiks Cube</h6><hr class="special"><p>Challenge</p></div><div class="categoryJudges"><img src="thumbnail/writing.jpg" alt="guest"><h6>Writing</h6><hr class="special"><p>Arts</p></div><div class="categoryJudges"><img src="thumbnail/instrument.jpg" alt="guest"><h6>Instruments</h6><hr class="special"><p>Musical</p></div>'
     }
 ];
 
@@ -94,8 +94,10 @@ function expandCategory(x){
     $(".sideInfo ul").html(categoryContent[x].rules);
     $(".sideInfo section").html(categoryContent[x].judges);
     $("#categoryScreen").css("bottom", "5vh");
-    if(x==5||x==7) $('#guestheading').hide();
+    if(x==5||x==7||x==11) $('#guestheading').hide();
     else $('#guestheading').show();
+    if(x==11) $('#otherCategoryType').show();
+    else $('#otherCategoryType').hide();
 }
 $("#minimizeCategory").click(function(){ $("#categoryScreen").css("bottom", "-120vh"); });
 
