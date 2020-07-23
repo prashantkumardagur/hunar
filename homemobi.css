@@ -364,3 +364,14 @@
     }
 
 }
+@media screen and (max-width: 370px){
+    .righthead{
+        bottom: 10px;
+    }
+    .righthead h2{
+        font-size: 20px;
+    }
+    .righthead p{
+        font-size: 13px;
+    }
+}
