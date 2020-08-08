@@ -431,6 +431,25 @@ header{
     font-size: 24px;
 }
 
+.reliance{
+    margin: 0 auto 100px;
+    text-align: center;
+}
+.reliance h3{
+    font-size: 60px;
+}
+.reliance h3.dark{
+    color: white;
+}
+.reliance img{
+    width: 300px;
+    margin: 0 auto 30px;
+}
+#relianceAd{
+    width: 90%;
+}
+
+
 .criteria{
     display: grid;
     grid-template-columns: 20vw auto;

@@ -212,6 +212,19 @@
         transform: scale(1.15);
     }
 
+    .reliance{
+        margin: 100px auto;
+    }
+    .reliance h3{
+        font-size: 36px;
+    }
+    .reliance img{
+        width: 250px;
+    }
+    #relianceAd{
+        width: 100%;
+    }
+
     .criteria{
         grid-template-columns: 1fr;
         padding: 80px 0;
