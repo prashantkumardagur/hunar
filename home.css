@@ -435,6 +435,9 @@ header{
     margin: 100px auto;
     text-align: center;
 }
+.reliance a{
+    display: block;
+}
 .reliance h3{
     font-size: 60px;
 }
